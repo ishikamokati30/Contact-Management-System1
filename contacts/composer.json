@@ -1,0 +1,15 @@
+{
+  "require": {
+    
+  },
+  
+  "autoload": {
+    "files": [
+      "includes/function.php",
+      "models/Contact.php"
+    ],
+    "psr-4": {
+      "Models\\": "models"
+    }
+  }
+}
